@@ -1,5 +1,27 @@
 # biar-fca-bot
 
+## Installation
+
+1. **Fork the repository** on GitHub: [biar-fca-bot](https://github.com/Jubiar01/biar-fca-bot.git)
+2. **Clone your fork and navigate to the project**:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/biar-fca-bot.git
+   cd biar-fca-bot
+   ```
+3. **Install library dependencies**:
+   ```bash
+   cd biar-fca
+   npm install
+   ```
+4. **Install bot dependencies**:
+   ```bash
+   cd ..
+   npm install
+   ```
+5. **Configure the bot**:
+   - Ensure you have an `appstate.json` file in the project root containing your Facebook cookies.
+   - Edit `settings.json` to set your desired prefix.
+
 This bot now loads commands from the `cmd` folder and calls them by file name.
 
 ## Structure
